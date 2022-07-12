@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="209.41mm"
+   version="1.1"
+   viewBox="0 0 210 209.41"
+   id="svg220"
+   sodipodi:docname="bc-square.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:export-filename="bc-square.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs224" />
+  <sodipodi:namedview
+     id="namedview222"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.29817901"
+     inkscape:cx="192.83718"
+     inkscape:cy="397.41229"
+     inkscape:window-width="1536"
+     inkscape:window-height="808"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg220" />
+  <rect
+     x="0.29329225"
+     y="-7.3242188e-07"
+     width="209.41"
+     height="209.41"
+     rx="30"
+     ry="30"
+     fill="#e8e8e8"
+     stop-color="#000000"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="0.79375"
+     id="rect194" />
+  <rect
+     x="-8.4874687e-14"
+     y="65.306999"
+     width="210"
+     height="78.806999"
+     fill="#5ab9ea"
+     stop-color="#000000"
+     id="rect196" />
+  <text
+     x="6.0540938"
+     y="162.60289"
+     fill="#5ab9ea"
+     font-family="Biryani"
+     font-size="15.906px"
+     font-weight="300"
+     letter-spacing="3.1019px"
+     stroke-width="0.12497"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text200"><tspan
+       x="6.0540938"
+       y="162.60289"
+       fill="#5ab9ea"
+       font-family="Biryani"
+       font-weight="300"
+       stroke-width="0.12497"
+       id="tspan198">BROOKE CLAVERIA</tspan></text>
+  <path
+     d="m -2.274e-4,96.422274 c 5.0714189,-0.0066 10.1054414,-0.866215 14.8922064,-2.540989 5.964537,-2.077777 11.428841,-5.380051 17.887453,-11.266496 6.458833,-5.886444 16.244423,-8.831757 27.407309,-8.839676 h 22.189382 c -10.268886,0.0066 -20.2309,3.501642 -28.252031,9.912739 -8.444373,8.166317 -19.731326,12.732442 -31.479138,12.734422 h -7.753195 z"
+     fill="#ffffff"
+     stop-color="#000000"
+     id="path202"
+     style="stroke-width:0.999985" />
+  <path
+     d="M 137.68745,73.786332 A 31.184365,31.184365 0 0 0 106.50089,104.9707 31.184365,31.184365 0 0 1 75.316525,136.15726 H 90.908487 A 31.184365,31.184365 0 0 0 122.09505,104.9707 31.184365,31.184365 0 0 1 153.27942,73.786332 Z"
+     fill="#c1c8e4"
+     stop-color="#000000"
+     id="path204"
+     style="stroke-width:0.999985" />
+  <path
+     d="M 137.68745,136.15066 A 31.184365,31.184365 0 0 1 106.50089,104.9663 31.184365,31.184365 0 0 0 75.316525,73.779733 h 15.591962 a 31.184365,31.184365 0 0 1 31.186563,31.186567 31.184365,31.184365 0 0 0 31.18437,31.18436 z"
+     fill="#ffffff"
+     stop-color="#000000"
+     id="path206"
+     style="stroke-width:0.999985" />
+  <circle
+     cx="153.27963"
+     cy="104.97951"
+     fill="#ffffff"
+     stop-color="#000000"
+     id="ellipse208"
+     r="15.592843"
+     style="stroke-width:0.999985" />
+  <path
+     d="m 51.926052,104.9795 c -4.4e-5,17.22311 13.96213,31.18436 31.184364,31.18436 H 67.518454 C 50.2949,136.16452 36.331889,122.20217 36.331889,104.9795 V 53.422783 C 36.332554,36.199229 22.370199,22.236219 5.1475246,22.236219 H 20.739487 c 17.223994,-6.6e-4 31.186565,13.96235 31.186565,31.186564 z"
+     fill="#c1c8e4"
+     stop-color="#000000"
+     id="path210"
+     style="stroke-width:0.999985" />
+  <path
+     d="m 153.27964,73.786332 c 3.49174,0.0044 6.95796,0.59641 10.2537,1.749501 4.10681,1.430596 7.86891,3.704243 12.31602,7.757375 4.44712,4.052911 11.18467,6.080907 18.87033,6.086406 h 15.27827 c -7.07038,-0.0044 -13.92957,-2.410981 -19.45261,-6.825319 -5.81429,-5.622689 -13.58553,-8.766643 -21.67375,-8.767963 h -5.33826 z"
+     fill="#c1c8e4"
+     stop-color="#000000"
+     id="path212"
+     style="stroke-width:0.999985" />
+  <path
+     d="m 153.27964,136.15066 c 3.49174,-0.004 6.95796,-0.59641 10.2537,-1.7495 4.10681,-1.43059 7.86891,-3.70424 12.31602,-7.75737 4.44712,-4.05292 11.18467,-6.08091 18.87033,-6.08641 h 15.27827 c -7.07038,0.004 -13.92957,2.41098 -19.45261,6.82532 -5.81429,5.62269 -13.58553,8.76664 -21.67375,8.76796 h -5.33826 z"
+     fill="#ffffff"
+     stop-color="#000000"
+     id="path214"
+     style="stroke-width:0.999985" />
+</svg>
