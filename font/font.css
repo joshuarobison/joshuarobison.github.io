@@ -1,0 +1,22 @@
+/* FONTS CSS
+ * Apply fonts from
+ * fonts folder
+*************************
+*************************
+*************************/
+
+@font-face {
+    font-family: 'font-regular';
+    src: url('biryaniregular.woff');
+    src: url('biryaniregular.woff') format('woff');
+}
+@font-face {
+    font-family: 'font-light';
+    src: url('biryanilight.woff');
+    src: url('biryaniultralight.woff') format('woff');
+}
+@font-face {
+    font-family: 'font-heavy';
+    src: url('biryaniextrabold.woff');
+    src: url('biryaniextrabold.woff') format('woff');
+}
