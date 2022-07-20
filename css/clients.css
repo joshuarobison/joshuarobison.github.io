@@ -1,0 +1,123 @@
+/* CLIENTS CSS FILE
+ * CSS for the clients.html page
+ *****************************/
+
+
+
+
+ /* TESTING BORDER
+  ************************
+  ************************
+  ************************/
+ main *{
+ .background-color: rgba(0,0,255,.1);
+ /*extreme*/
+ .background-color: rgba(255,0,0,.5);
+ }
+ /************************
+  ************************
+  ************************/
+
+
+
+
+/*HEADER IMAGE
+*Change the image
+* based on page
+********************/
+header{
+background-image:
+  url('../img/h7.png'),
+  url('../img/h7.png');
+background-position: left top,right top;
+background-repeat: no-repeat,no-repeat;
+background-size: contain,contain;
+}
+@media screen and (max-width: 600px){
+header{
+background-size: cover;
+background-image:url('../img/h7.png');}
+#head-content{transform: translateY(100px);}}
+
+
+
+main{
+padding: 50px 0;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+article{
+width: 28%;
+margin: 50px 20px;
+padding: 50px;
+border: 3px dashed rgba(var(--dark1rgb), 0.5);
+background-image:
+  radial-gradient(var(--grey1),rgba(var(--light1rgb), 0.5));
+border-radius: 70px;}
+
+article img{
+width: 80%;
+margin: 0 50px 50px 50px;
+}
+
+article p{
+    font-size: var(--normal);
+    padding: 25px;
+background-image:
+  linear-gradient(
+  rgba(var(--dark2rgb), 0.3),
+  rgba(var(--dark2rgb), 0.1));
+}
+
+strong{
+    font-family: serif;
+    color: var(--dark1);
+    font-size: var(--biggest);
+}
+
+small{
+padding-top: 20px;
+display: block;
+}
+
+
+@media screen and (max-width: 700px){
+article{width: 100%;}
+}
+
+@media screen and (max-width: 600px){
+
+main{padding-top: 100px;}
+article{
+margin: 0;
+padding: 0;
+width: 100%;
+border: none;
+background-image: none;
+}
+article p{
+    font-size: var(--small);
+    margin-bottom: 100px;
+}
+article img{
+    margin: 0;
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page end*/
