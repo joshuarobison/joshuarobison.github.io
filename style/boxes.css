@@ -227,7 +227,9 @@ rgba(var(--black1).8));
 *******************
 *******************/
 
-.FULLHEADER⦗BOX{height: 100vh;}
+.FULLHEADER⦗BOX{
+height: 100vh;
+overflow-x: hidden;}
 .FULLHEADER⦗BOX aside{
 background-repeat: no-repeat;
 background-size: cover;
@@ -319,6 +321,9 @@ transition: left .3s linear;
     -moz-animation-play-state: paused;
     -webkit-animation-play-state: paused;
     }
+    .SLIDER⦗BOX aside{
+    padding-bottom: min(4rem,10vh);
+    }
 
 
 .HEADLOGO⦗BTN{
@@ -334,6 +339,22 @@ width: auto;
 
 
 @-webkit-keyframes slide-keys {
+0%   {transform: translateX(0); opacity:1;}
+
+28%  {transform: translateX(0); opacity:1;}
+29%  {opacity: .5;}
+33%  {transform: translateX(-100vw); opacity:1;}
+
+61%  {transform: translateX(-100vw); opacity:1;}
+62%  {opacity: .5;}
+66%  {transform: translateX(-200vw); opacity:1;}
+
+95%  {transform: translateX(-200vw); opacity:1;}
+96%  {opacity: .5;}
+}
+
+
+@-webkit-keyframes slide-keysback {
 0%   {left:0; opacity:1;}
 
 28%  {left:0; opacity:1;}
@@ -352,7 +373,7 @@ width: auto;
 @media screen and (min-width: 321px){
 
 .FULLHEADER⦗BOX aside{
-padding: .5rem 2rem;
+padding: max(1.5rem,9vh) 2rem;
 }
 
 }@media screen and (min-width: 1024px){
