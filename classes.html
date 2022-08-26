@@ -1,7 +1,7 @@
 <!--
 <BROOKE CLAVERIA
-<2022/08/05
-<clints page
+<2022/08/26
+<classes page
 <by Joshua Robison
 < < < < < < < < < < < <
 < < < < < < < < < < < <
@@ -16,7 +16,7 @@
       content="ie=edge">
     <meta name="description"
       content="Body health and fitness by Brooke Claveria">
-    <title>Brooke Claveria</title>
+    <title>Brooke Claveria - classes</title>
 
     <link rel="apple-touch-icon"
       href="favicon-apple.png"><!--180-->
@@ -25,14 +25,13 @@
     <link rel="shortcut icon"
       href="/favicon.ico"><!--48-->
 
-    <link rel="stylesheet" href="style/global.css" />
-    <link rel="stylesheet" href="style/boxes.css" />
+      <link rel="stylesheet" href="style/style.css" />
 
     <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"></script>
-
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
     <script>
     $(function(){
     $("#NAVIGATION").load("navigation.html");
@@ -44,15 +43,20 @@
 <body>
 
 
+
+
+
+
 <!--
-<HEADER [BOX]
+<HALF HEADER
 < < < < < < < < < -->
-<header class="HALFHEADER⦗BOX
-HEADERTRAINING⦗IMG">
+<header class="FRAME⦘HALFHEADER IMG⦘CLASSES">
 
 <h1>MAT & REFORMER CLASSES</h1>
 
-<a class="HEADLOGO⦗BTN"
+
+
+<a class="BTN⦘HEROLOGO"
 href="index.html">
     <img src="img/logo.svg"
     type="image/svg+xml" />
@@ -65,18 +69,21 @@ href="index.html">
 
 
 
-<!--
-<GALLERY [BOX]
-< < < < < < < < < -->
-<section class="ACTIVEGALLERY⦗BOX">
 
-<div id="area1">
-    <span>
+
+<!--
+<GALLERY [FRAME]
+< < < < < < < < < -->
+<section
+class="FRAME⦘GALLERY
+TWEAK⦘CLASSES">
+<div>
+    <div>
     <h1>MORNING MOMMIES</h1>
     <span>mat session</span>
     <span>A mat class for mommies and babies starting at 10:30am every Monday.
     </span>
-    </span>
+    </div>
 
     <form target="_blank"
     action="https://formsubmit.co/e635df05c42046d740a11acb4ce4410f"
@@ -106,13 +113,14 @@ href="index.html">
     </form>
 </div>
 
-<div id="area2">
-    <span>
+
+<div>
+    <div>
     <h1>KIDS ROCK</h1>
     <span>mat session</span>
     <span>A mat class for kids at 5:30pm every Monday evening.
     </span>
-    </span>
+    </div>
 
     <form target="_blank"
     action="https://formsubmit.co/e635df05c42046d740a11acb4ce4410f"
@@ -143,13 +151,13 @@ href="index.html">
 </div>
 
 
-<div id="area3">
-    <span>
+<div>
+    <div>
     <h1>WEDNESDAY WORKAHOLIC</h1>
     <span>mat session</span>
     <span>A mat class for adults starting at 8:15am every Wednesday.
     </span>
-    </span>
+    </div>
 
     <form target="_blank"
     action="https://formsubmit.co/e635df05c42046d740a11acb4ce4410f"
@@ -180,13 +188,13 @@ href="index.html">
 </div>
 
 
-<div id="area4">
-    <span>
+<div>
+    <div>
     <h1>PARK PILATES</h1>
     <span>mat session</span>
     <span>A group mat class for anyone starting at 10:00am every Tuesday at the park.
     </span>
-    </span>
+    </div>
 
     <form target="_blank"
     action="https://formsubmit.co/e635df05c42046d740a11acb4ce4410f"
@@ -217,13 +225,13 @@ href="index.html">
 </div>
 
 
-<div id="area5">
-    <span>
+<div>
+    <div>
     <h1>ON THE REFORMER</h1>
     <span>reformer session</span>
     <span>Find out how to get the ultimate physical upgrade on the Reformer.
     </span>
-    </span>
+    </div>
 
     <form target="_blank"
     action="https://formsubmit.co/e635df05c42046d740a11acb4ce4410f"
@@ -254,13 +262,13 @@ href="index.html">
 </div>
 
 
-<div id="area6">
-    <span>
+<div>
+    <div>
     <h1>COMING SOON</h1>
     <span>miscellaneous</span>
     <span>Find out about other events with Brooke as this page gets updated or by following her on her socials.  You can also sign up here for direct email updates.
     </span>
-    </span>
+    </div>
 
     <form target="_blank"
     action="https://formsubmit.co/e635df05c42046d740a11acb4ce4410f"
@@ -287,8 +295,11 @@ href="index.html">
         </a>
     </form>
 </div>
-
 </section>
+
+
+
+
 
 
 
@@ -304,8 +315,14 @@ href="index.html">
 <NAVIGATION [BOX]
 < < < < < < < < < < < < -->
 <nav id="NAVIGATION"
-class="MAIN⦗NAV">
+class="NAV⦘HEROMENU">
 </nav>
+
+
+
+
+
+
 
 
 
@@ -314,8 +331,10 @@ jQuery(document).ready(function($) {
 //    alert("js is working");
 
 
-$(".ACTIVEGALLERY⦗BOX > div").click(function(){
+$(".TWEAK⦘CLASSES > div").click(function(){
 //alert("jquery is working");
+    $(".TWEAK⦘CLASSES form").hide();
+    $(".TWEAK⦘CLASSES > div").removeClass("clicked");
     $(this).children("form").toggle();
     $(this).toggleClass("clicked");
 });
