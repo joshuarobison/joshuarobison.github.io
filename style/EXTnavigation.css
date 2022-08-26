@@ -1,0 +1,91 @@
+/*NAVIGATION EXTENTION
+**By Joshua Robison
+**2022/08/24
+*************************/
+
+
+/*WORKOUTMAIN⦗NAV⦘
+*************************/
+.NAV⦘HEROMENU{
+position: fixed;
+top:0;left:0;
+    }
+    .NAV⦘HEROMENU > menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;right:0;
+    transform: translateX(110%);
+    width: 280px;
+    height: 100vh;
+    padding-top: 1.5rem;
+    gap: .5rem;
+    font-size: 90%;
+    /*   ---   */
+    color: rgba(var(--tint1)1);
+    backdrop-filter: blur(.8rem);
+    background-color: rgba(var(--white0).7);
+    box-shadow: 0px 5px 10px rgba(var(--black0).5);
+    }.NAV⦘HEROMENU > menu > a:hover{
+    color: rgba(var(--tint2)1);
+    border-bottom: 1px solid rgba(var(--tint2)1);
+    transform: scale(110%);
+        }
+        .NAV⦘HEROMENU .LIST⦘SOCIAL{
+        justify-content: center;
+        }
+        .NAV⦘HEROMENU .LIST⦘SOCIAL svg{
+        fill: rgba(var(--tint1)1);
+        }.NAV⦘HEROMENU .LIST⦘SOCIAL svg:hover{
+        fill: rgba(var(--tint2)1);
+        transform: scale(130%);
+        }
+
+
+
+    .NAV⦘HEROMENU > input{
+    position:fixed;
+    z-index: 1;
+    top:1.5rem;
+    right:0;
+    width: 5rem;
+    height: 3rem;
+    opacity: 0;
+    cursor: pointer;
+    }
+
+    .BTN⦘HAMBURGER{
+    position: fixed;
+    top: 1.3rem;
+    left:0;
+    padding: .5rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    transform: translateX(calc(100vw - 3.8rem));
+    background-color: rgba(var(--tint1)1);
+    stroke: rgba(var(--white1)1);
+    }
+
+.NAV⦘HEROMENU input:checked ~ menu{
+transform: translateX(0%);
+transition: .2s
+}
+.NAV⦘HEROMENU input:hover ~ .BTN⦘HAMBURGER{
+transform: translateX(calc(100vw - 4.7rem));
+padding-right: 1.5rem;
+width: 3.8rem;
+}
+@media screen and (max-width: 650px){
+.NAV⦘HEROMENU > menu{
+width: 100vw;
+}
+
+}
+
+
+
+
+
+/*END OF FILE*/

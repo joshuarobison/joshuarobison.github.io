@@ -1,0 +1,145 @@
+/*HEADER EXTENTION
+**By Joshua Robison
+**2022/08/23
+**an animated sliding
+**header
+*************************/
+
+.FRAME⦘FULLHEADER{
+min-height: 100vh;
+}
+
+.FILMSTRIP⦘{
+display: flex;
+position: absolute;
+left:0;top:0;
+min-height: 100vh;
+width: 300vw;
+/*     ---     */
+transition: left .3s linear;
+-moz-transition: left .3s linear;
+-o-transition: left .3s linear;
+-webkit-transition: left .3s linear;
+-webkit-animation: slide-keys 10s infinite;
+/*}.FILMSTRIP⦘:hover{
+-moz-animation-play-state: paused;
+-webkit-animation-play-state: paused; */
+    }.FILMSTRIP⦘ section{
+    display: grid;
+    place-items: end start;
+    min-height: 100vh;
+    width: 100vw;
+    padding: .5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: top center;
+        }.FILMSTRIP⦘ aside{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        max-width: 50vw;
+        margin-bottom: 10vh;
+        margin-top: 20px;
+        gap: 5vh;
+        padding: 1vh 3.5vw;
+            }
+            .FILMSTRIP⦘ h1{
+            font-family: 'fantasy';
+            font-size: clamp(1.5em,min(9vw,7vh),2.8em);
+            line-height: 1.1em;
+            /*  ---  */
+            text-shadow:
+            10px 3px 0px rgba(var(--white1)1),
+            -3px -3px 0px rgba(var(--white1)1);
+            }
+            .FILMSTRIP⦘ span{
+            font-size: 1.2em;
+            font-size: max(3.5vw,1.2em);
+            font-size: clamp(1.2em,3.5vw,3vh);
+            line-height: 1.2em;
+            /*   ---   */
+            color: rgba(var(--white1)1);
+            }
+
+
+
+@-webkit-keyframes slide-keys {
+0%   {left:0; opacity:1;}
+
+28%  {left:0; opacity:1;}
+29%  {opacity: .5;}
+33%  {left:-100vw; opacity:1;}
+
+61%  {left:-100vw; opacity:1;}
+62%  {opacity: .5;}
+66%  {left:-200vw; opacity:1;}
+
+95%  {left:-200vw; opacity:1;}
+96%  {opacity: .5;}
+}
+
+
+.IMG⦘access{
+background-color: rgba(var(--tint2)1);
+background-image: url("../img/headaccessimg.jpg");
+}
+.IMG⦘classes{
+background-color: rgba(var(--tint2)1);
+background-image: url("../img/headclassesimg.jpg");
+}
+.IMG⦘kids{
+background-color: rgba(var(--tint2)1);
+background-image: url("../img/headkidsimg.jpg");
+}
+
+
+
+
+
+.BTN⦘HEROLOGO{
+position: absolute;
+top:.3rem;left:.1rem;
+z-index: 1;
+height: 4rem;
+width: 7rem;
+}.BTN⦘HEROLOGO:hover{
+transform:
+scale(110%)
+translate(5px, 5px);
+}
+
+
+
+.BTN⦘SECTION,
+.BTN⦘SECTION:visited{
+display: inline-block;
+font-family: 'fantasy';
+text-decoration: none;
+text-align: center;
+padding:1rem;
+margin-right: auto;
+font-size: min(5vh,2em,6vw); /*2em*/
+line-height: 1em;
+/*     ---     */
+text-decoration: none;
+color: rgba(var(--white1)1);
+background-image:
+linear-gradient(45deg,
+rgba(var(--tint2)1),
+rgba(var(--tint1)1));
+border-radius: .8rem;
+box-shadow: -6px 6px 0px rgba(var(--black0)1);
+}.BTN⦘SECTION:hover{
+color: rgba(var(--white1)1);
+transform: translateY(-10px);
+box-shadow: -6px 16px 0px rgba(var(--black0)1);
+}
+
+
+
+
+
+
+
+/*END OF PAGE*/

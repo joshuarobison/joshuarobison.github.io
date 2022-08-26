@@ -1,0 +1,57 @@
+/*GLOBAL TWEAKS
+**By Joshua Robison
+**2022/08/26
+*************************/
+
+
+
+
+
+/*INDEX TWEAK
+************************/
+.FRAME⦘GALLERY.TWEAK⦘INDEX{
+font-family: "sans-heavy";
+    }
+    .FRAME⦘GALLERY.TWEAK⦘INDEX div{
+    padding: 5vw;
+        }
+        .FRAME⦘GALLERY.TWEAK⦘INDEX h1{
+        position: relative;
+        margin-bottom: 1.5em;
+        font-family: 'fantasy';
+        font-size: clamp(1.2em,min(7vw,4vh),2.8em);
+        line-height: 1.1em;
+        }.FRAME⦘GALLERY.TWEAK⦘INDEX h1::after{
+        content: "";
+        position: absolute;
+        bottom:-.4em;left:0;
+        border-bottom:
+        5px solid rgba(var(--white1)1);
+        width: 100px;
+        }
+
+.FRAME⦘GALLERY.TWEAK > div:nth-child(1){
+background-image: url("../img/locations1.jpg");
+}
+.FRAME⦘GALLERY.TWEAK > div:nth-child(2){
+background-image: url("../img/voice1.jpg");
+}
+.FRAME⦘GALLERY.TWEAK > div:nth-child(3){
+background-image: url("../img/bio1.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*END OF FILE*/

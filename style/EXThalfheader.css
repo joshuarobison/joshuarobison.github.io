@@ -1,0 +1,37 @@
+/*HALF HEADER EXTENTION
+**By Joshua Robison
+**2022/08/23
+**an animated sliding
+**header
+*************************/
+
+
+.FRAME⦘HALFHEADER{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+height: clamp(8rem,25vh,50vh);
+padding: 2.5vh 3.5vw;
+font-family: 'fantasy';
+font-size: min(7vh, .7em);
+line-height: 2.2em;
+/*     ---     */
+background-color:
+rgba(var(--tint2)1);
+background-size: cover;
+background-repeat: no-repeat;
+background-blend-mode: soft-light;
+background-position: center;
+text-shadow:
+10px 3px 0px rgba(var(--white1)1),
+-3px -3px 0px rgba(var(--white1)1);
+}
+
+
+
+
+
+
+
+
+/*END OF PAGE*/
