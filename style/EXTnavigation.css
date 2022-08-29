@@ -16,8 +16,7 @@ top:0;left:0;
     align-items: center;
     justify-content: center;
     position: fixed;
-    top:0;right:0;
-    transform: translateX(110%);
+    top:0;left:110vw;
     width: 280px;
     height: 100vh;
     padding-top: 1.5rem;
@@ -48,8 +47,8 @@ top:0;left:0;
     .NAV⦘HEROMENU > input{
     position:fixed;
     z-index: 1;
-    top:1.5rem;
-    right:0;
+    top:1.3rem;
+    left:calc(100vw - 5rem);
     width: 5rem;
     height: 3rem;
     opacity: 0;
@@ -59,23 +58,21 @@ top:0;left:0;
     .BTN⦘HAMBURGER{
     position: fixed;
     top: 1.3rem;
-    left:0;
-    padding: .5rem;
-    width: 2.8rem;
+    left:calc(100vw - 4rem);
+    padding: .5rem 2.5rem .5rem .5rem;
+    width: 5rem;
     height: 2.8rem;
-    transform: translateX(calc(100vw - 3.8rem));
     background-color: rgba(var(--tint1)1);
     stroke: rgba(var(--white1)1);
     }
 
+
 .NAV⦘HEROMENU input:checked ~ menu{
-transform: translateX(0%);
+left:0;
 transition: .2s
 }
 .NAV⦘HEROMENU input:hover ~ .BTN⦘HAMBURGER{
-transform: translateX(calc(100vw - 4.7rem));
-padding-right: 1.5rem;
-width: 3.8rem;
+left:calc(100vw - 5rem);
 }
 @media screen and (max-width: 650px){
 .NAV⦘HEROMENU > menu{

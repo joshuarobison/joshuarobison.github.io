@@ -173,6 +173,7 @@ justify-content: flex-end;
 cursor: pointer;
 background-position: bottom;
 min-height: 50vh;
+gap:1em;
 }
 .FRAME⦘GALLERY.TWEAK⦘CLASSES form{
 display: none;
@@ -233,6 +234,110 @@ background-image: url("../img/area5.jpg");
 .FRAME⦘GALLERY.TWEAK⦘CLASSES > div:nth-child(6){
 background-image: url("../img/area6.jpg");
 }
+
+
+
+
+
+
+
+
+/*CLIENTS TWEAKS
+************************/
+.IMG⦘CLIENTS{
+background-image:
+url("../img/voice2.jpg");
+}
+@media screen and (min-width: 720px){
+
+.IMG⦘CLIENTS{
+background-position: 0px -80px;
+}
+
+}
+
+
+.TWEAK⦘CLIENTS{
+font-family: "sans-heavy";
+}
+.TWEAK⦘CLIENTS > div{
+cursor: pointer;
+gap:2em;
+}
+.TWEAK⦘CLIENTS figure{
+display:flex;
+font-family: 'sans-heavy';
+font-size: 1.2em;
+align-items: center;
+margin-bottom: 2rem;
+}
+.TWEAK⦘CLIENTS img{
+height:auto;width:auto;
+padding: 2.5rem;
+border-radius: 5rem;
+border: 7px solid white;
+background-size: contain;
+margin-right: 1.5rem;
+}
+.TWEAK⦘CLIENTS blockquote{
+display: none;
+}
+.TWEAK⦘CLIENTS p{
+margin-bottom: 2em;
+}
+
+
+.TWEAK⦘CLIENTS div.clicked blockquote{
+display: block !important;
+}
+.TWEAK⦘CLIENTS div.clicked q{
+display: none !important;
+}
+
+
+@media screen and (min-width: 720px){
+
+.TWEAK⦘CLIENTS div.clicked{
+grid-column: auto / span 2;
+}
+
+}
+
+
+/*BACKGROUND IMAGES*/
+.FRAME⦘GALLERY.TWEAK⦘CLIENTS > div:nth-child(1){
+background-position: right bottom;
+background-image: url("../img/dana-voice.jpg");
+    }
+    .FRAME⦘GALLERY.TWEAK⦘CLIENTS > div:nth-child(1) img{
+    background-image:
+    url("../img/dana-icn.jpg");
+    }
+.FRAME⦘GALLERY.TWEAK⦘CLIENTS > div:nth-child(2){
+background-position: left;
+background-image: url("../img/feriba-voice.jpg");
+    }
+    .FRAME⦘GALLERY.TWEAK⦘CLIENTS > div:nth-child(2) img{
+    background-image:
+    url("../img/feriba-icn.jpg");
+    }
+.FRAME⦘GALLERY.TWEAK⦘CLIENTS > div:nth-child(3){
+background-image: url("../img/shahirah-voice.jpg");
+    }
+    .FRAME⦘GALLERY.TWEAK⦘CLIENTS > div:nth-child(3) img{
+    background-image:
+    url("../img/shahirah-icn.jpg");
+    }
+.FRAME⦘GALLERY.TWEAK⦘CLIENTS > div:nth-child(4){
+background-image: url("../img/ryan-voice.jpg");
+    }
+    .FRAME⦘GALLERY.TWEAK⦘CLIENTS > div:nth-child(4) img{
+    background-image:
+    url("../img/ryan-icn.jpg");
+    }
+
+
+
 
 
 /*END OF PAGE*/
