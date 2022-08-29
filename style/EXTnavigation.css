@@ -17,7 +17,7 @@ top:0;left:0;
     justify-content: center;
     position: fixed;
     top:0;left:110vw;
-    width: 280px;
+    width: 100vw;
     height: 100vh;
     padding-top: 1.5rem;
     gap: .5rem;
@@ -69,14 +69,16 @@ top:0;left:0;
 
 .NAV⦘HEROMENU input:checked ~ menu{
 left:0;
-transition: .2s
 }
 .NAV⦘HEROMENU input:hover ~ .BTN⦘HAMBURGER{
 left:calc(100vw - 5rem);
 }
-@media screen and (max-width: 650px){
+@media screen and (min-width: 720px){
 .NAV⦘HEROMENU > menu{
-width: 100vw;
+width: 280px;
+}
+.NAV⦘HEROMENU input:checked ~ menu{
+left:calc(100vw - 280px);
 }
 
 }
