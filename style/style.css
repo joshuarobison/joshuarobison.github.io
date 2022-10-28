@@ -171,11 +171,14 @@ background-position: center;
 .FRAME⦘GALLERY.TWEAK⦘CLASSES > div{
 display: flex;
 flex-direction: column;
-justify-content: flex-end;
+justify-content: space-between;
 cursor: pointer;
 background-position: bottom;
 min-height: 50vh;
 gap:1em;
+}
+.FRAME⦘GALLERY.TWEAK⦘CLASSES > div > span{
+align-self: end;
 }
 .FRAME⦘GALLERY.TWEAK⦘CLASSES form{
 display: none;
