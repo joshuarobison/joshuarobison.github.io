@@ -1,0 +1,57 @@
+/*SECTIONS
+**By Joshua Robison
+**2023/01/24
+**types of sections
+*************************/
+
+
+.FRAME⦘ARTICLE{
+display: grid;
+place-items: end start;
+min-height: 100vh;
+width: 100vw;
+padding: .5rem;
+padding-top: max(20vh, calc( 20rem - 20vw ));
+background-repeat: no-repeat;
+background-size: auto 150%;
+
+background-blend-mode: soft-light;
+background-position: center center;
+
+    }
+    .FRAME⦘ARTICLE > div{
+        z-index: 10;
+        padding: 10vh 3vw;
+    }
+    .FRAME⦘ARTICLE h1{
+    font-family: 'fantasy';
+    font-size: clamp(1.5em,min(8vw,6vh),2.8em);
+    line-height: 1.1em;
+    margin-bottom: 5vh;
+    /*  ---  */
+    text-shadow:
+    10px 3px 0px rgba(var(--white1)1),
+    -3px -3px 0px rgba(var(--white1)1);
+    }
+    .FRAME⦘ARTICLE p{
+    margin-top: 3vh;
+    max-width: 40rem;
+    font-size: clamp(1.1em,3.5vw,3vh);
+    line-height: 1.2em;
+    /*   ---   */
+    color: rgba(var(--white1)1);
+    }
+
+.IMG⦘bioarticle{
+background-color: 
+rgba(var(--tint2)1);
+background-image: 
+url("../img/reformer-stretch.jpg");
+}
+
+
+
+
+
+
+/*END OF PAGE*/
